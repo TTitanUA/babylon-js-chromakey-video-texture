@@ -1,0 +1,45 @@
+{
+  "name": "babylon-js-chromakey-video-texture",
+  "version": "1.0.0",
+  "description": "BabylonJS shader to replace chromakey with transparent on video texture",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": {
+    "name": "Taras Prokofiev",
+    "url": "xttitax@gmail"
+  },
+  "bugs": {
+    "url": "https://github.com/TTitanUA/babylon-js-chromakey-video-texture/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@types/lodash": "^4.14.161",
+    "babylonjs": "^4.0.3",
+    "babylonjs-gui": "^4.0.3",
+    "babylonjs-loaders": "^4.0.3",
+    "lodash": "^4.17.20",
+    "query-string": "^6.13.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@types/node": "^10.12.18",
+    "gl": "^4.4.0",
+    "prettier": "1.16.0",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.11"
+  },
+  "jest": {
+    "setupFiles": [
+      "jest-canvas-mock"
+    ]
+  }
+}
